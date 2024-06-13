@@ -16,7 +16,6 @@ list_of_files = [
     "store_index.py",
     "static/.gitkeep",
     "templates/chat.html"
-    
 
 ]
 
