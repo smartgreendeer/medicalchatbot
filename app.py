@@ -17,7 +17,7 @@ embeddings = download_hugging_face_embeddings()
 
 # Setup CTransformers LLM
 llm = CTransformers(
-    model="llama-2-7b-chat.ggmlv3.q4_0.bin", 
+    model="a16z-infra/llama7b-v2-chat:4f0a4744c7295c024a1de15e1a63c880d3da035fa1f49bfd344fe076074c8eea", 
     model_type="llama", 
     config={'max_new_tokens': 256, 'temperature': 0.3}  # Adjusted for performance
 )
